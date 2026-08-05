@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: public-speaking-coach-2f288
+  version: 1.0.0
+  description: Interactive AI agent that guides users to learn public speaking through weekly models, script practice, and iterative feedback.
+
+assets:
+  - ref: ./assets/public-speaking-coach-agent/asset.yaml
